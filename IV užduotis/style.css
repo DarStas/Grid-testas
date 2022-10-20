@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;    
+}
+
+.one {
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.two {
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.three {
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.four {
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.five {
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}

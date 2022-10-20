@@ -2,7 +2,13 @@ html,
 body {
     margin: 0;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
     display: grid;
+}
+
+h2 {
+    font-weight: lighter;
+    padding-left: 20px;
 }
 
 .one {

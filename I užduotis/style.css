@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     display: grid;
+    font-family: Arial, Helvetica, sans-serif;
     grid-template-rows: 1fr 10fr 1fr;
     grid-template-areas: 
     "header"
@@ -13,16 +14,19 @@ header {
     grid-area: header;
     border: 2px solid red;
     border-radius: 20px;
+    padding: 20px;
 }
 
 main {
     grid-area: main;
     border: 2px solid red;
     border-radius: 20px;
+    padding: 20px;
 }
 
 footer {
     grid-area: footer;
     border: 2px solid red;
     border-radius: 20px;
+    padding: 20px;
 }

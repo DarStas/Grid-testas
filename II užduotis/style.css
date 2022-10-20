@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+    gap: 20px;
+}
+
+.item1 {
+    border: 2px solid red;
+    border-radius: 10px;
+    grid-column: 1 / span 4;
+}
+
+.item2 {
+    border: 2px solid red;
+    border-radius: 10px;
+    grid-column: 5 / span 8;
+}

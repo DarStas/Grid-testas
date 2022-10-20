@@ -9,30 +9,8 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 100px auto 100px;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-    height: 100vh;
-}
-
-.header {
-    grid-area: header;
-    border: 2px solid red;
-    border-radius: 10px;
-}
-
-.main {
-    grid-area: main;
-    border: 2px solid red;
-    border-radius: 10px;
-}
-
-.footer {
-    grid-area: footer;
-    border: 2px solid red;
-    border-radius: 10px;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    grid-column: ;
 }
 
